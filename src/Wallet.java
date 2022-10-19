@@ -18,7 +18,11 @@ public class Wallet {
         return money;
     }
     public int DecreaseMoney(){
-        money = money - SquareMoney;
+        if ( SquareMoney > money) {
+            money = 0;}
+        else {
+            money = money - SquareMoney;
+        }
         return money;
     }
 }
