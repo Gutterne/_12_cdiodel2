@@ -9,19 +9,10 @@ public class Wallet {
     this.money = money;
 
 
-
-
     }
-    public void GetMoney() {
-        //System.out.println(money);
+    public int GetMoney() {
+        //1000 + 60 for testing = 1060 ;D
+        int squareMoney = money + SQpoints[9];
+        return squareMoney;
     }
-
-    public String toString(int cash) {
-        cash =SQpoints[7];
-        cash += money;
-
-        return cash + monetos;
-    }
-
-
 }

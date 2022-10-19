@@ -12,6 +12,7 @@ public class Main {
 
         System.out.println(wallet.SQpoints[8]);
 
+        System.out.println(wallet.GetMoney());
     }
 
 }
