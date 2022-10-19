@@ -10,8 +10,11 @@ public class Game {
 
         while (b) {
 
-            String hello = scanner.nextLine();
 
+        }
+
+        while (b) {
+            String hey = scanner.nextLine();
         }
     }
 }
