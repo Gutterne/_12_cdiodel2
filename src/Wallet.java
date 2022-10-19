@@ -1,5 +1,6 @@
 public class Wallet {
 
+
     private int money = 1000;
     Square square = new Square();
     private int squareMoney;
@@ -28,4 +29,6 @@ public class Wallet {
     }
 
     }
+
+
 
