@@ -2,9 +2,15 @@ import java.util.Scanner;
 public class Game {
 
 
+    Holder holder;
+    Player player1, player2;
+
     boolean playing = true;
 
     Game() {
+    }
+
+    public void play () {
         Scanner scanner = new Scanner(System.in);
         while(playing){
         //Player 1
