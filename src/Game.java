@@ -1,19 +1,20 @@
 import java.util.Scanner;
 public class Game {
-
-
     Holder holder;
-    Player player1, player2;
+
 
     boolean playing = true;
+    public Game(){
+        holder = new Holder();
 
-    Game() {
     }
 
-    public void play () {
+    public void play() {
         Scanner scanner = new Scanner(System.in);
         while(playing){
         //Player 1
+            System.out.println(holder.sum());
+
         System.out.println("Spiller 1 kast med terningerne");
         System.out.println("Tryk på enter spiller 1");
         String p1 = scanner.nextLine();
