@@ -1,3 +1,8 @@
 public class Player {
-//hej//
+    Wallet myWallet1;
+
+    Player() {
+        myWallet1 = new Wallet();
+    }
+
 }
