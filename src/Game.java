@@ -1,12 +1,15 @@
 import java.util.Scanner;
 public class Game {
     Holder holder;
-
-
+    Player player1,player2;
+   // Board board;
     boolean playing = true;
+
     public Game(){
         holder = new Holder();
-
+        player1 = new Player();
+        player2 = new Player();
+        //board = new Board;
     }
 
     public void play() {
