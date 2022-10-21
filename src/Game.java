@@ -51,7 +51,7 @@ public class Game {
         System.out.println("Tryk på enter spiller 1");
         String p1 = scanner.nextLine();
         System.out.println("Spiller 1 du slog " + holder.getSum() + " og landet på "+ square.location[holder.getSum()] + " Denne Square Værdi gav : " + square.points[holder.getSum()]);
-
+        kommentar();
     }
 
     public void updateFlow2(){
@@ -60,8 +60,15 @@ public class Game {
         System.out.println("Tryk på enter spiller 2");
         String p2 = scanner.nextLine();
         System.out.println("Spiller 2 du slog " + holder.getSum() + " og landet på "+ square.location[holder.getSum()] + " Denne Square Værdi gav : " + square.points[holder.getSum()]);
+        kommentar();
     }
-
+    public void kommentar(){
+        if(square.points[holder.getSum()]<0){
+            System.out.println("minus");
+        } else if(square.points[holder.getSum()]>0){
+            System.out.println("Plus");
+        }
+    }
 }
 
 
