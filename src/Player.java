@@ -1,3 +1,11 @@
 public class Player {
-//hej//
+    Wallet myWallet;
+
+    public Player() {
+        myWallet = new Wallet();
+    }
+       // public void update(){
+//
+        //value = myWallet.SQpoints[8];
+      //  }
 }
