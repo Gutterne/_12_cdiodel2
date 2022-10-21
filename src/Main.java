@@ -10,7 +10,13 @@ public class Main {
 
 
         //System.out.println((square.location[8]));
-        System.out.println(square.location[8] + square.points[8]);
+        //System.out.println(square.location[8] + square.points[8]);
+
+
+        //System.out.println(wallet.SQpoints[8]);
+
+        //System.out.println(wallet.GetMoney());
+
 
 
     }
