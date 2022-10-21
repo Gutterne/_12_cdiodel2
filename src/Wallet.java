@@ -1,34 +1,28 @@
 public class Wallet {
+    private int money=1000;
+    private int SquareMoney;
 
-
-    private int money = 1000;
-    Square square = new Square();
-    private int squareMoney;
-    int[] SQpoints = square.points;
-
-    public Wallet() {
-    this.money = money;
-
-    }
-    public void setSquareMoney(int SquareMoney) {
-        squareMoney = SquareMoney;
+    public Wallet(int FromSquare){
+        SquareMoney=FromSquare;
     }
 
-    public int GetMoney() {
-        //1000 + 60 for testing = 1060 ;D
-        int squareMoney = money + SQpoints[9];
-        return squareMoney;
+    public int getSquareMoney() {
+        return SquareMoney;
     }
-    public int DecreasMoney() {
-        if (squareMoney > money) {
+
+    public void setSquareMoney(int squareMoney) {
+        SquareMoney = squareMoney;
+    }
+    public int IncreaseMoney(){
+        money = money + SquareMoney;
+        return money;
+    }
+    public int DecreaseMoney(){
+        if ( SquareMoney > money) {
             money = 0;}
-                else {
-                    money = money - squareMoney;
-                }
-    return squareMoney;
+        else {
+            money = money - SquareMoney;
+        }
+        return money;
     }
-
-    }
-
-
-
+}

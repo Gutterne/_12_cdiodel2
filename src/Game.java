@@ -1,18 +1,30 @@
 import java.util.Scanner;
 public class Game {
     Holder holder;
+
     Wallet wallet;
     Player player;
     Square square;
 
     Scanner scanner = new Scanner(System.in);
 
+
+    Player player1,player2;
+   // Board board;
+
     boolean playing = true;
+
     public Game(){
         holder = new Holder();
+
         wallet = new Wallet();
         player = new Player();
         square = new Square();
+
+
+        player1 = new Player();
+        player2 = new Player();
+        //board = new Board;
 
     }
 
