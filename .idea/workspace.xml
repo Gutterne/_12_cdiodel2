@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="540e4a45-702f-4d31-a879-0c846103d5ac" name="Changes" comment="Fix 2.0">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="540e4a45-702f-4d31-a879-0c846103d5ac" name="Changes" comment="Laver Kommentare">
       <change beforePath="$PROJECT_DIR$/src/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Square.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -146,14 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666343328540</updated>
     </task>
-    <task id="LOCAL-00008" summary="UpdateGame">
-      <created>1666341209094</created>
+    <task id="LOCAL-00008" summary="Laver Kommentare">
+      <created>1666344615028</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1666341209094</updated>
+      <updated>1666344615028</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +181,7 @@
     <MESSAGE value="Stuff on Game" />
     <MESSAGE value="Fix" />
     <MESSAGE value="Fix 2.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix 2.0" />
+    <MESSAGE value="Laver Kommentare" />
+    <option name="LAST_COMMIT_MESSAGE" value="Laver Kommentare" />
   </component>
 </project>

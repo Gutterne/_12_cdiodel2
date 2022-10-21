@@ -5,7 +5,7 @@ public class Square {
 
     //Array Kommentare
     String[] negativkommentare={"Det gik ikke så godt!","Du igang med at gå bankerot","Nårh, det var ikke så godt","Du blir bare fattigere og fattigere","Du længere væk fra at blive min sugardaddy","Det gik sku nedaf"};
-
+    String[] positivKommentare={"Det går flyvende","du sindsyg!","Har du det varmt, eller er det kun mig?","Hvordan er du så god!","Du må gerne blive min sugardaddy","DET KAN IKKE BLIVE BEDRE!"};
 
     Square() {
     }
