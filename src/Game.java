@@ -50,18 +50,16 @@ public class Game {
 
         }
     public void updateFlow(){
-        System.out.println("Spiller 1 kast med terningerne");
         System.out.println("Tryk på enter spiller 1");
         String p1 = scanner.nextLine();
         holder.sum();
         System.out.println("Spiller 1 du slog " + holder.getSum() + " og landet på "+ square.location[holder.getSum()] + " Denne Square Værdi gav : " + square.points[holder.getSum()]);
         player1.myWallet.setSquareMoney(square.points[holder.getSum()]);
         Comment();
-        System.out.println("player 1 har nu "+player1.myWallet.UpdateMoney());
+        System.out.print(" player 1 har nu "+player1.myWallet.UpdateMoney()+" ");
     }
 
     public void updateFlow2(){
-        System.out.println("Spiller 2 kast med terningerne");
         System.out.println("Tryk på enter spiller 2");
         String p2 = scanner.nextLine();
         System.out.println();
@@ -69,7 +67,7 @@ public class Game {
         System.out.println("Spiller 2 du slog " + holder.getSum() + " og landet på "+ square.location[holder.getSum()] + " Denne Square Værdi gav : " + square.points[holder.getSum()]);
         player2.myWallet.setSquareMoney(square.points[holder.getSum()]);
         Comment();
-        System.out.println("player 2 har nu "+player2.myWallet.UpdateMoney());
+        System.out.print(" player 2 har nu "+player2.myWallet.UpdateMoney()+" ");
 
     }
     public void updateNum(){
@@ -77,9 +75,9 @@ public class Game {
     }
     public void Comment(){
         if(square.points[holder.getSum()]>=0){
-            System.out.println(square.positiveComments[randomNum]);
+            System.out.print(square.positiveComments[randomNum]);
         } else if(square.points[holder.getSum()]<0){
-            System.out.println(square.negativeComments[randomNum]);
+            System.out.print(square.negativeComments[randomNum]);
         }
     }
 }
