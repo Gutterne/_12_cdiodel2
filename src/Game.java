@@ -1,7 +1,9 @@
 import java.util.Scanner;
+
 public class Game {
     Holder holder;
 
+    int randomNum;
     Wallet wallet;
     Player player1,player2;
     Square square;
@@ -43,7 +45,7 @@ public class Game {
         //Player 2
 
         updateFlow2();
-
+        updateNum(); // Update of number in a loop
         }
 
         }
@@ -54,12 +56,11 @@ public class Game {
         holder.sum();
         System.out.println("Spiller 1 du slog " + holder.getSum() + " og landet på "+ square.location[holder.getSum()] + " Denne Square Værdi gav : " + square.points[holder.getSum()]);
         player1.myWallet.setSquareMoney(square.points[holder.getSum()]);
-        kommentar();
+        Comment();
         System.out.println("player 1 har nu "+player1.myWallet.UpdateMoney());
     }
 
     public void updateFlow2(){
-
         System.out.println("Spiller 2 kast med terningerne");
         System.out.println("Tryk på enter spiller 2");
         String p2 = scanner.nextLine();
@@ -67,17 +68,18 @@ public class Game {
         holder.sum();
         System.out.println("Spiller 2 du slog " + holder.getSum() + " og landet på "+ square.location[holder.getSum()] + " Denne Square Værdi gav : " + square.points[holder.getSum()]);
         player2.myWallet.setSquareMoney(square.points[holder.getSum()]);
-        kommentar();
+        Comment();
         System.out.println("player 2 har nu "+player2.myWallet.UpdateMoney());
 
     }
-    public void kommentar(){
-        if(square.points[holder.getSum()]<0){
-
-            System.out.println("minus");
-        } else if(square.points[holder.getSum()]>0){
-
-            System.out.println("plus");
+    public void updateNum(){
+        randomNum = (int)(Math.random() * 6); //random nummer
+    }
+    public void Comment(){
+        if(square.points[holder.getSum()]>=0){
+            System.out.println(square.positiveComments[randomNum]);
+        } else if(square.points[holder.getSum()]<0){
+            System.out.println(square.negativeComments[randomNum]);
         }
     }
 }
