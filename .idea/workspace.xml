@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="540e4a45-702f-4d31-a879-0c846103d5ac" name="Changes" comment="Stuff on Game">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_19_2022_2_40_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_19_2022_2_40_PM__Changes_.xml" afterDir="false" />
+    <list default="true" id="540e4a45-702f-4d31-a879-0c846103d5ac" name="Changes" comment="Fix 2.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Wallet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wallet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Square.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,19 +132,19 @@
       <option name="project" value="LOCAL" />
       <updated>1666283593702</updated>
     </task>
-    <task id="LOCAL-00006" summary="Update Branch">
-      <created>1666283931152</created>
+    <task id="LOCAL-00006" summary="Fix">
+      <created>1666343260699</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1666283931152</updated>
+      <updated>1666343260699</updated>
     </task>
-    <task id="LOCAL-00007" summary="It works!">
-      <created>1666289268489</created>
+    <task id="LOCAL-00007" summary="Fix 2.0">
+      <created>1666343328540</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1666289268489</updated>
+      <updated>1666343328540</updated>
     </task>
     <task id="LOCAL-00008" summary="UpdateGame">
       <created>1666341209094</created>
@@ -155,7 +153,7 @@
       <option name="project" value="LOCAL" />
       <updated>1666341209094</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +180,8 @@
     <MESSAGE value="It works!" />
     <MESSAGE value="UpdateGame" />
     <MESSAGE value="Stuff on Game" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stuff on Game" />
+    <MESSAGE value="Fix" />
+    <MESSAGE value="Fix 2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix 2.0" />
   </component>
 </project>
