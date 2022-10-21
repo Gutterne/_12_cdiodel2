@@ -9,7 +9,7 @@ public class Game {
     Scanner scanner = new Scanner(System.in);
 
 
-   // Board board;
+
 
     boolean playing = true;
 
@@ -31,22 +31,24 @@ public class Game {
 
     public void play() {
 
-        while(playing){
+        while (playing) {
 
-        //Player 1
-            ////////////////////////////// TESTING
+            updateFlow();
+            if(player1.myWallet.getMoney()>=3000){
+                playing=false;
+                System.out.println("Spiller 1 har vundet");
+                break;
+            }
 
-
-        updateFlow();
-            //System.out.println(wallet.SQpoints[8]);
-            ////////////////////////////////////
-        //Player 2
-
-        updateFlow2();
-
+            updateFlow2();
+            if(player2.myWallet.getMoney()>=3000){
+                playing=false;
+                System.out.println("Spiller 2 har vundet");
+                break;
+            }
         }
 
-        }
+    }
     public void updateFlow(){
         System.out.println("Spiller 1 kast med terningerne");
         System.out.println("Tryk på enter spiller 1");
@@ -80,6 +82,8 @@ public class Game {
             System.out.println("plus");
         }
     }
+    //TODO check for winner at 3000 money
+    //TODO Check for ekstra roll at die roll 10
 }
 
 
