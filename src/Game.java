@@ -40,20 +40,12 @@ public class Game {
 
         }
 
-
-
         }
     public void updateFlow(){
         System.out.println("Spiller 1 kast med terningerne");
         System.out.println("Tryk på enter spiller 1");
         String p1 = scanner.nextLine();
-        System.out.println("Spiller 1 du slog " + holder.getSum() + " og landet på "+ square.location[holder.getSum()]);
-        System.out.println("Damn du har fået " + square.points[holder.getSum()]);
-
-        //System.out.println(square.location[holder.getSum()]+square.points[holder.getSum()]);
-        //player.dieHit =valuep1;
-
-
+        System.out.println("Spiller 1 du slog " + holder.getSum() + " og landet på "+ square.location[holder.getSum()] + "Denne Square Værdi gav : " + square.points[holder.getSum()]);
 
     }
 }
