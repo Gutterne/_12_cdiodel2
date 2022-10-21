@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="540e4a45-702f-4d31-a879-0c846103d5ac" name="Changes" comment="Laver Kommentare">
+    <list default="true" id="540e4a45-702f-4d31-a879-0c846103d5ac" name="Changes" comment="Adderet positiv kommentare i Square.java">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Square.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -152,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666344615028</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Adderet positiv kommentare i Square.java">
+      <created>1666344996828</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666344996828</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +190,7 @@
     <MESSAGE value="Fix" />
     <MESSAGE value="Fix 2.0" />
     <MESSAGE value="Laver Kommentare" />
-    <option name="LAST_COMMIT_MESSAGE" value="Laver Kommentare" />
+    <MESSAGE value="Adderet positiv kommentare i Square.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adderet positiv kommentare i Square.java" />
   </component>
 </project>

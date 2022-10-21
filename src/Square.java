@@ -4,8 +4,8 @@ public class Square {
     int[] points = {0, 0, 250, -100, 100, -20, 180, 0, -70, 60, -80, -50, 650};
 
     //Array Kommentare
-    String[] negativkommentare={"Det gik ikke så godt!","Du igang med at gå bankerot","Nårh, det var ikke så godt","Du blir bare fattigere og fattigere","Du længere væk fra at blive min sugardaddy","Det gik sku nedaf"};
-    String[] positivKommentare={"Det går flyvende","du sindsyg!","Har du det varmt, eller er det kun mig?","Hvordan er du så god!","Du må gerne blive min sugardaddy","DET KAN IKKE BLIVE BEDRE!"};
+    String[] negativeComments={"Det gik ikke så godt!","Du igang med at gå bankerot","Nårh, det var ikke så godt","Du blir bare fattigere og fattigere","Du længere væk fra at blive min sugardaddy","Det gik sku nedaf","Du lort, bli bedre noob!","gg, er noget du ikke burde sige"};
+    String[] positivComments={"Det går flyvende","du sindsyg!","Har du det varmt, eller er det kun mig?","Hvordan er du så god!","Du må gerne blive min sugardaddy","DET KAN IKKE BLIVE BEDRE!","SINDSSYYGGTT!!","LETTSS GOOOOOOOOOO"};
 
     Square() {
     }
