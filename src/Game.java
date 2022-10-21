@@ -9,7 +9,6 @@ public class Game {
     Scanner scanner = new Scanner(System.in);
 
 
-    Player player1,player2;
    // Board board;
 
     boolean playing = true;
@@ -22,13 +21,10 @@ public class Game {
 
 
         wallet = new Wallet();
-        player = new Player();
 
         square = new Square();
 
 
-        player1 = new Player();
-        player2 = new Player();
         //board = new Board;
 
     }
@@ -58,7 +54,8 @@ public class Game {
         holder.sum();
         System.out.println("Spiller 1 du slog " + holder.getSum() + " og landet på "+ square.location[holder.getSum()] + " Denne Square Værdi gav : " + square.points[holder.getSum()]);
         player1.myWallet.setSquareMoney(square.points[holder.getSum()]);
-        System.out.println(" player 1 har nu "+player1.myWallet.UpdateMoney());
+        kommentar();
+        System.out.println("player 1 har nu "+player1.myWallet.UpdateMoney());
     }
 
     public void updateFlow2(){
@@ -70,10 +67,19 @@ public class Game {
         holder.sum();
         System.out.println("Spiller 2 du slog " + holder.getSum() + " og landet på "+ square.location[holder.getSum()] + " Denne Square Værdi gav : " + square.points[holder.getSum()]);
         player2.myWallet.setSquareMoney(square.points[holder.getSum()]);
-        System.out.println(" player 2 har nu "+player2.myWallet.UpdateMoney());
+        kommentar();
+        System.out.println("player 2 har nu "+player2.myWallet.UpdateMoney());
 
     }
+    public void kommentar(){
+        if(square.points[holder.getSum()]<0){
 
+            System.out.println("minus");
+        } else if(square.points[holder.getSum()]>0){
+
+            System.out.println("plus");
+        }
+    }
 }
 
 
