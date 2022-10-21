@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="540e4a45-702f-4d31-a879-0c846103d5ac" name="Changes" comment="Stuff on Game">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_19_2022_2_40_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_19_2022_2_40_PM__Changes_.xml" afterDir="false" />
+    <list default="true" id="540e4a45-702f-4d31-a879-0c846103d5ac" name="Changes" comment="if-else statement for kommentar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Wallet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wallet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +24,22 @@
     <option name="BRANCH" value="master" />
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="MoizBranch" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="branch1" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -116,37 +125,6 @@
       <option name="project" value="LOCAL" />
       <updated>1666189358751</updated>
     </task>
-
-    <task id="LOCAL-00005" summary="Update Branch">
-      <created>1666283875748</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1666283875748</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Update Branch">
-      <created>1666283931152</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1666283931152</updated>
-    </task>
-    <task id="LOCAL-00007" summary="It works!">
-      <created>1666289268489</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1666289268489</updated>
-    </task>
-    <task id="LOCAL-00008" summary="UpdateGame">
-      <created>1666341209094</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1666341209094</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
-
     <task id="LOCAL-00005" summary="Stuff on Game">
       <created>1666283593702</created>
       <option name="number" value="00005" />
@@ -154,8 +132,49 @@
       <option name="project" value="LOCAL" />
       <updated>1666283593702</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
-
+    <task id="LOCAL-00006" summary="Fix">
+      <created>1666343260699</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666343260699</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fix 2.0">
+      <created>1666343328540</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666343328540</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Laver Kommentare">
+      <created>1666344615028</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1666344615028</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Adderet positiv kommentare i Square.java">
+      <created>1666344996828</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666344996828</updated>
+    </task>
+    <task id="LOCAL-00010" summary="flere kommentare">
+      <created>1666346227055</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1666346227055</updated>
+    </task>
+    <task id="LOCAL-00011" summary="if-else statement for kommentar">
+      <created>1666346791533</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1666346791533</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,14 +197,16 @@
     <MESSAGE value="Setup" />
     <MESSAGE value="Square setup [data]" />
     <MESSAGE value="Wallet Testing" />
-
     <MESSAGE value="Update Branch" />
     <MESSAGE value="It works!" />
     <MESSAGE value="UpdateGame" />
-    <option name="LAST_COMMIT_MESSAGE" value="UpdateGame" />
-
     <MESSAGE value="Stuff on Game" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stuff on Game" />
-
+    <MESSAGE value="Fix" />
+    <MESSAGE value="Fix 2.0" />
+    <MESSAGE value="Laver Kommentare" />
+    <MESSAGE value="Adderet positiv kommentare i Square.java" />
+    <MESSAGE value="flere kommentare" />
+    <MESSAGE value="if-else statement for kommentar" />
+    <option name="LAST_COMMIT_MESSAGE" value="if-else statement for kommentar" />
   </component>
 </project>
