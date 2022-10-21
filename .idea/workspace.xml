@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="540e4a45-702f-4d31-a879-0c846103d5ac" name="Changes" comment="Stuff on Game">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_19_2022_2_40_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_19_2022_2_40_PM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Wallet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wallet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,13 +112,12 @@
       <option name="project" value="LOCAL" />
       <updated>1666189358751</updated>
     </task>
-
-    <task id="LOCAL-00005" summary="Update Branch">
-      <created>1666283875748</created>
+    <task id="LOCAL-00005" summary="Stuff on Game">
+      <created>1666283593702</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1666283875748</updated>
+      <updated>1666283593702</updated>
     </task>
     <task id="LOCAL-00006" summary="Update Branch">
       <created>1666283931152</created>
@@ -145,17 +140,7 @@
       <option name="project" value="LOCAL" />
       <updated>1666341209094</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
-
-    <task id="LOCAL-00005" summary="Stuff on Game">
-      <created>1666283593702</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1666283593702</updated>
-    </task>
     <option name="localTasksCounter" value="6" />
-
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,14 +163,10 @@
     <MESSAGE value="Setup" />
     <MESSAGE value="Square setup [data]" />
     <MESSAGE value="Wallet Testing" />
-
     <MESSAGE value="Update Branch" />
     <MESSAGE value="It works!" />
     <MESSAGE value="UpdateGame" />
-    <option name="LAST_COMMIT_MESSAGE" value="UpdateGame" />
-
     <MESSAGE value="Stuff on Game" />
     <option name="LAST_COMMIT_MESSAGE" value="Stuff on Game" />
-
   </component>
 </project>

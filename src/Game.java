@@ -8,8 +8,6 @@ public class Game {
 
     Scanner scanner = new Scanner(System.in);
 
-
-    Player player1,player2;
    // Board board;
 
     boolean playing = true;
@@ -22,7 +20,7 @@ public class Game {
 
 
         wallet = new Wallet();
-        player = new Player();
+
 
         square = new Square();
 
