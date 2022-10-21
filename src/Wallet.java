@@ -3,7 +3,6 @@ public class Wallet {
     private int SquareMoney;
 
     public Wallet(){
-
     }
 
     public int getSquareMoney() {
