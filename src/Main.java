@@ -17,7 +17,7 @@ public class Main {
 
         //System.out.println(wallet.GetMoney());
 
-
+//JA TAK
 
     }
 
