@@ -6,7 +6,7 @@ public class Main {
 
 
     Square square = new Square();
-    Game game;
+    Game game = new Game();
     Wallet wallet = new Wallet();
 
 
