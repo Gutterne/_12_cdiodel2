@@ -2,6 +2,7 @@ public class Wallet {
     private int money=1000;
     private int SquareMoney;
 
+
     public Wallet(){
 
     }
@@ -23,4 +24,5 @@ public class Wallet {
         }
         return money;
     }
+
 }
