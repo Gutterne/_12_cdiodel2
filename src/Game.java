@@ -34,6 +34,11 @@ public class Game {
         while (playing) {
 
             updateFlow();
+            if (holder.getSum()==10){
+                System.out.println("Ekstra");
+                updateFlow();
+
+            }
             if(player1.myWallet.getMoney()>=3000){
                 playing=false;
                 System.out.println("Spiller 1 har vundet");
@@ -41,6 +46,11 @@ public class Game {
             }
 
             updateFlow2();
+            if(holder.getSum()==10){
+                System.out.println("Ekstra");
+                updateFlow2();
+
+            }
             if(player2.myWallet.getMoney()>=3000){
                 playing=false;
                 System.out.println("Spiller 2 har vundet");
