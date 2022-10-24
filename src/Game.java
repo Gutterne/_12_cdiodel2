@@ -49,6 +49,8 @@ public class Game {
         }
 
         }
+
+
     public void updateFlow(){
         System.out.println("Tryk på enter spiller 1");
         String p1 = scanner.nextLine();
@@ -70,9 +72,11 @@ public class Game {
         System.out.print(" player 2 har nu "+player2.myWallet.UpdateMoney()+" ");
 
     }
+
     public void updateNum(){
         randomNum = (int)(Math.random() * 6); //random nummer
     }
+
     public void Comment(){
         if(square.points[holder.getSum()]>=0){
             System.out.print(square.positiveComments[randomNum]);
