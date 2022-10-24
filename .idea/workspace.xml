@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="540e4a45-702f-4d31-a879-0c846103d5ac" name="Changes" comment="Først Commit Create Class out from Diagram">
+    <list default="true" id="540e4a45-702f-4d31-a879-0c846103d5ac" name="Changes" comment="Got the wining of game to work">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Wallet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Wallet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +45,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/Die.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Game.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Holder.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Main.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Player.java" root0="FORCE_HIGHLIGHTING" />
@@ -55,6 +54,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2Fd1w8AaVtb2rtLyiAvWu6zBaf6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -101,7 +103,7 @@
       <updated>1664807384528</updated>
       <workItem from="1665843055162" duration="5885000" />
       <workItem from="1666349167531" duration="456000" />
-      <workItem from="1666350513518" duration="3613000" />
+      <workItem from="1666350513518" duration="4063000" />
     </task>
     <task id="LOCAL-00001" summary="Først Commit Create Class out from Diagram">
       <created>1665842824876</created>
@@ -187,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666348605051</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Got the wining of game to work">
+      <created>1666376002365</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1666376002365</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +229,7 @@
     <MESSAGE value="flere kommentare" />
     <MESSAGE value="if-else statement for kommentar" />
     <MESSAGE value="Først Commit Create Class out from Diagram" />
-    <option name="LAST_COMMIT_MESSAGE" value="Først Commit Create Class out from Diagram" />
+    <MESSAGE value="Got the wining of game to work" />
+    <option name="LAST_COMMIT_MESSAGE" value="Got the wining of game to work" />
   </component>
 </project>
