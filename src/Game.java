@@ -34,8 +34,8 @@ public class Game {
         while (playing) {
 
             updateFlow();
-            if (holder.getSum()==10){
-                System.out.println("Ekstra");
+            while (holder.getSum()==10){
+                System.out.println("Du får et ekstra slag");
                 updateFlow();
 
             }
@@ -46,8 +46,8 @@ public class Game {
             }
 
             updateFlow2();
-            if(holder.getSum()==10){
-                System.out.println("Ekstra");
+            while(holder.getSum()==10){
+                System.out.println("Du får et ekstra slag");
                 updateFlow2();
 
             }
