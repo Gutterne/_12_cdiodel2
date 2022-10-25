@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="540e4a45-702f-4d31-a879-0c846103d5ac" name="Changes" comment="Ekstra slag virker" />
+    <list default="true" id="540e4a45-702f-4d31-a879-0c846103d5ac" name="Changes" comment="Exstra die roll works better" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,6 +103,7 @@
       <workItem from="1666349167531" duration="456000" />
       <workItem from="1666350513518" duration="4063000" />
       <workItem from="1666599027441" duration="315000" />
+      <workItem from="1666610435816" duration="273000" />
     </task>
     <task id="LOCAL-00001" summary="Først Commit Create Class out from Diagram">
       <created>1665842824876</created>
@@ -209,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666599864184</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Exstra die roll works better">
+      <created>1666610633350</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1666610633350</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,6 +252,7 @@
     <MESSAGE value="Først Commit Create Class out from Diagram" />
     <MESSAGE value="Got the wining of game to work" />
     <MESSAGE value="Ekstra slag virker" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ekstra slag virker" />
+    <MESSAGE value="Exstra die roll works better" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exstra die roll works better" />
   </component>
 </project>
