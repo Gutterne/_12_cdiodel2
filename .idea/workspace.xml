@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+
     <list default="true" id="540e4a45-702f-4d31-a879-0c846103d5ac" name="Changes" comment="Exstra die roll works better" />
+
+    <list default="true" id="540e4a45-702f-4d31-a879-0c846103d5ac" name="Changes" comment="Kommentare">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +42,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="MoizBranch" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -88,6 +94,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -100,10 +107,14 @@
       <option name="presentableId" value="Default" />
       <updated>1664807384528</updated>
       <workItem from="1665843055162" duration="5885000" />
+
       <workItem from="1666349167531" duration="456000" />
       <workItem from="1666350513518" duration="4063000" />
       <workItem from="1666599027441" duration="315000" />
       <workItem from="1666610435816" duration="273000" />
+
+      <workItem from="1666609382775" duration="2433000" />
+
     </task>
     <task id="LOCAL-00001" summary="Først Commit Create Class out from Diagram">
       <created>1665842824876</created>
@@ -182,6 +193,7 @@
       <option name="project" value="LOCAL" />
       <updated>1666346791533</updated>
     </task>
+
     <task id="LOCAL-00012" summary="Først Commit Create Class out from Diagram">
       <created>1666348605051</created>
       <option name="number" value="00012" />
@@ -218,6 +230,51 @@
       <updated>1666610633350</updated>
     </task>
     <option name="localTasksCounter" value="17" />
+
+    <task id="LOCAL-00012" summary="Fix og shapeup">
+      <created>1666348035090</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1666348035090</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Creation of number loop, comment method with reference to both positive and negative comment arrays.">
+      <created>1666350221201</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1666350221201</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Forbedret konsol userinterface">
+      <created>1666350747143</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1666350747143</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Videreopbyggelse af kode og cleanup">
+      <created>1666355079319</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1666355079319</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Slettet board.java">
+      <created>1666355528073</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1666355528073</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Kommentare">
+      <created>1666614249148</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1666614249148</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,10 +306,19 @@
     <MESSAGE value="Adderet positiv kommentare i Square.java" />
     <MESSAGE value="flere kommentare" />
     <MESSAGE value="if-else statement for kommentar" />
+
     <MESSAGE value="Først Commit Create Class out from Diagram" />
     <MESSAGE value="Got the wining of game to work" />
     <MESSAGE value="Ekstra slag virker" />
     <MESSAGE value="Exstra die roll works better" />
     <option name="LAST_COMMIT_MESSAGE" value="Exstra die roll works better" />
+
+    <MESSAGE value="Fix og shapeup" />
+    <MESSAGE value="Creation of number loop, comment method with reference to both positive and negative comment arrays." />
+    <MESSAGE value="Forbedret konsol userinterface" />
+    <MESSAGE value="Videreopbyggelse af kode og cleanup" />
+    <MESSAGE value="Slettet board.java" />
+    <MESSAGE value="Kommentare" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kommentare" />
   </component>
 </project>
