@@ -1,6 +1,19 @@
+
+/*
 import java.util.Scanner;
 
-public class Game {
+
+
+
+
+/*        Der står i opgaveformuleringen at " Spillet skal let kunne oversættes til andre sprog. "
+        Dette betyder at outputtet skal let kunne oversættes til et andet sprog, derfor laver vi en game, oversat til
+         engelsk, så man let kan koble til et andet sprog.
+  */
+
+
+ /*
+public class GameEngelsk {
     Holder holder;
 
     int randomNum;
@@ -13,7 +26,7 @@ public class Game {
 
     boolean playing = true;
 
-    public Game() {
+    public GameEngelsk() {
         holder = new Holder();
 
         player1 = new Player();
@@ -35,25 +48,25 @@ public class Game {
 
             updateFlow();
             while (holder.getSum() == 10) {
-                System.out.println("Du får et ekstra slag");
+                System.out.println("You got an extra turn!");
                 updateFlow();
 
             }
             if (player1.myWallet.getMoney() >= 3000) {
                 playing = false;
-                System.out.println("Spiller 1 har vundet");
+                System.out.println("Player 1 has won!");
                 break;
             }
 
             updateFlow2();
             while (holder.getSum() == 10) {
-                System.out.println("Du får et ekstra slag");
+                System.out.println("You get an extra turn");
                 updateFlow2();
 
             }
             if (player2.myWallet.getMoney() >= 3000) {
                 playing = false;
-                System.out.println("Spiller 2 har vundet");
+                System.out.println("Player 2 has won");
                 break;
             }
         }
@@ -65,34 +78,35 @@ public class Game {
 
 
 
-
+    //player 1 in loop
     public void updateFlow(){
-        System.out.println("Tryk på enter spiller 1");
+        System.out.println("Click enter to play, player 1");
         String p1 = scanner.nextLine();
         holder.sum();
-        System.out.println("Spiller 1 du slog " + holder.getSum() + " og landet på "+ square.location[holder.getSum()] + " Denne Square Værdi gav : " + square.points[holder.getSum()]);
+        System.out.println("Player 1 you got " + holder.getSum() + " and landed on "+ square.location[holder.getSum()] + " This Square gave : " + square.points[holder.getSum()]);
         player1.myWallet.setSquareMoney(square.points[holder.getSum()]);
         Comment();
-        System.out.println(" player 1 har nu "+player1.myWallet.UpdateMoney()+" ");
+        System.out.println(" player 1 has "+player1.myWallet.UpdateMoney()+" ");
     }
 
-
+    //player 2 in loop
     public void updateFlow2(){
-        System.out.println("Tryk på enter spiller 2");
+        System.out.println("Click enter to play, player 2");
         String p2 = scanner.nextLine();
         System.out.println();
         holder.sum();
-        System.out.println("Spiller 2 du slog " + holder.getSum() + " og landet på "+ square.location[holder.getSum()] + " Denne Square Værdi gav : " + square.points[holder.getSum()]);
+        System.out.println("Player 2 you got " + holder.getSum() + " and landed on "+ square.location[holder.getSum()] + " This Square gave : " + square.points[holder.getSum()]);
         player2.myWallet.setSquareMoney(square.points[holder.getSum()]);
         Comment();
-        System.out.println(" player 2 har nu "+player2.myWallet.UpdateMoney()+" ");
+        System.out.println(" player 2 has "+player2.myWallet.UpdateMoney()+" ");
 
     }
-
+    //update number reference
     public void updateNum(){
         randomNum = (int)(Math.random() * 6); //random nummer
     }
 
+    //comments from negative and positive array reference
     public void Comment(){
         if(square.points[holder.getSum()]>=0){
             System.out.print(square.positiveComments[randomNum]);
@@ -105,5 +119,6 @@ public class Game {
 }
 
 
+*/
 
 
