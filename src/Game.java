@@ -11,7 +11,7 @@ public class Game {
     Scanner scanner = new Scanner(System.in);
 
 
-   // Board board;
+
 
     boolean playing = true;
 
@@ -33,6 +33,35 @@ public class Game {
 
     public void play() {
 
+        while (playing) {
+
+            updateFlow();
+            while (holder.getSum()==10){
+                System.out.println("Du får et ekstra slag");
+                updateFlow();
+
+            }
+            if(player1.myWallet.getMoney()>=3000){
+                playing=false;
+                System.out.println("Spiller 1 har vundet");
+                break;
+            }
+
+            updateFlow2();
+            while(holder.getSum()==10){
+                System.out.println("Du får et ekstra slag");
+                updateFlow2();
+
+            }
+            if(player2.myWallet.getMoney()>=3000){
+                playing=false;
+                System.out.println("Spiller 2 har vundet");
+                break;
+            }
+        }
+
+    }
+
         while(playing){
 
         //Player 1
@@ -49,6 +78,7 @@ public class Game {
         }
 
         }
+
 
 
     public void updateFlow(){
@@ -84,6 +114,8 @@ public class Game {
             System.out.print(square.negativeComments[randomNum]);
         }
     }
+    //TODO check for winner at 3000 money
+    //TODO Check for ekstra roll at die roll 10
 }
 
 

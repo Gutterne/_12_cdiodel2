@@ -36,4 +36,7 @@ public class Wallet {
         return money;
     }
 
+    public int getMoney() {
+        return money;
+    }
 }
