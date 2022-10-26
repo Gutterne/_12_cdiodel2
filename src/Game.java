@@ -62,22 +62,9 @@ public class Game {
 
     }
 
-        while(playing){
-
-        //Player 1
-            ////////////////////////////// TESTING
 
 
-        updateFlow();
-            //System.out.println(wallet.SQpoints[8]);
-            ////////////////////////////////////
-        //Player 2
 
-        updateFlow2();
-        updateNum(); // Update of number in a loop
-        }
-
-        }
 
 
 
